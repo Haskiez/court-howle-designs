@@ -1,17 +1,90 @@
 <!DOCTYPE html>
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <!-- Bootstrap CDN Necessities -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <link rel="shorcut icon" type="image/png" href="images-files/court_howle_designs_favicon_icon.png">
-    <title>CourtHowle Designs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <title>Court Howle Designs</title>
 </head>
+
 <body>
-    <div class="main-design-logo">
-        <p>image goes here</p>
+    <div class="header">
+        <h1 id="home-page" data-show="home">Court Howle Designs</h1>
+        <div>
+            <ul class="nav">
+                <li class="navbar-links" data-show="about">About</li>
+                <li class="navbar-links" data-show="portfolio">Portfolio</li>
+                <!-- <li class="navbar-links" data-show="lettering">Lettering</li> -->
+                <a href="https://www.instagram.com/courthowlephotos/?hl=en" target="_blank">
+                    <li class="navbar-links">Photography</li>
+                </a>
+                <!-- <li class="navbar-links" data-show="contact">Contact</li> -->
+            </ul>
+        </div>
+    </div>
+    <div class="body">
+        <div id="home">
+            <img id="index-image" src="images-files/court-howle-designs-logo.png" alt="Image Here">
+        </div>
+        <div id="about">
+            <h1>ABOUT ME</h1>
+        </div>
+        <div id="portfolio">
+            <table style="width: 90%;">
+                <tr>
+                    <td style="width: 500px; text-align: left;">
+                        <ul class="vertical-nav">
+                            <li class="vertical-nav-links">
+                                <p class="clickable-links">BRANDING, PACKAGING</p>
+                            </li>
+                            <li class="vertical-nav-links">
+                                <p class="clickable-links">TYPOGRAPHY</p>
+                            </li>
+                            <li class="vertical-nav-links">
+                                <p class="clickable-links">LOGO, LOGO MARKS</p>
+                            </li>
+                            <li class="vertical-nav-links">
+                                <p class="clickable-links">SPREADS</p>
+                            </li>
+                            <li class="vertical-nav-links">
+                                <p class="clickable-links">POSTERS</p>
+                            </li>
+                            <li class="vertical-nav-links">
+                                <p class="clickable-links">LETTERING</p>
+                            </li>
+                        </ul>
+                    </td>
+                    <td>
+                        <table class="carousel-all">
+                            <tr>
+                                <td class="clickable-arrow" data-arrow="prev">&lt;</td>
+                                <td id="imgTd"><img id="imgCar" src="images-files/breakfast-quote-handlettering.png" alt="All Images"></td>
+                                <td class="clickable-arrow" data-arrow="next">&gt;</td>
+                            </tr>
+                            <!-- <tr>
+                                <td colspan="3">ooooo</td>
+                            </tr> -->
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="lettering">
+            <p>Lettering</p>
+        </div>
+        <div id="photography">
+            <p>Photography</p>
+        </div>
+        <div id="contact">
+            <p>Contact</p>
+        </div>
     </div>
 </body>
+
 </html>

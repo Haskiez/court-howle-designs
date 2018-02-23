@@ -1,0 +1,96 @@
+:root {
+    --font-family: 'Montserrat', Arial, sans-serif;
+}
+
+a {
+    color: black;
+    cursor: pointer;
+}
+
+
+.header {
+    text-transform: uppercase;
+    padding: 5px 0 0 35px;
+    font-family: var(--font-family);
+}
+
+.nav {
+    padding-left: 0;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.navbar-links {
+    margin: 0 10px 0 0;
+    display: inline-block;
+    /* text-transform: uppercase; */
+    cursor: pointer;
+}
+
+.body {
+    font-family: var(--font-family);
+    padding: 50px 0 0 35px;
+}
+
+#home-page {
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-size: 2.2em;
+}
+
+#home {
+    text-align: center;
+}
+
+#about, #portfolio, #lettering, #photography, #contact {
+    display: none;
+}
+
+#index-image {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin-top: 100px;
+}
+
+.vertical-nav {
+    list-style: none;
+    padding-left: 0;
+    display: inline-block;
+}
+.vertical-nav-links {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.clickable-links {
+    margin-bottom: 2px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.carousel-all {
+    width: 100%;
+    text-align: center;
+}
+
+#brandingImages {
+    height: 200px;
+    width: 400px;
+}
+
+.clickable-arrow {
+    cursor: pointer;
+    font-size: 40px;
+}
+
+#imgTd {
+    min-width: 300px;
+    width: 550px;
+}
+
+#imgCar {
+    height: 300px;
+    width: 300px;
+}
